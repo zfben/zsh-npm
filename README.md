@@ -1,6 +1,7 @@
 # zsh-npm
 
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![License](https://img.shields.io/github/license/zfben/zsh-npm)
 
 Personal zsh plugin for npm.
 

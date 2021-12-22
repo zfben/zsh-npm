@@ -1,5 +1,7 @@
 # zsh-npm
 
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+
 Personal zsh plugin for npm.
 
 | Alias | Command
@@ -16,6 +18,17 @@ Personal zsh plugin for npm.
 
 ## Install
 
-Using [zpm](https://github.com/zpm-zsh/zpm)
+### Manual
+
+```zsh
+git clone --depth=1 https://github.com/zfben/zsh-npm.git ~/.zsh-npm
+echo 'source ~/.zsh-npm/npm.plugin.zsh' >>~/.zshrc
+```
+
+### Using [oh-my-zsh](https://github.com/ohmyzsh/oh-my-zsh)
+
+Execute `git clone https://github.com/zfben/zsh-npm ~/.oh-my-zsh/custom/plugins/zsh-npm`. Add `zsh-npm` into plugins array in `.zshrc`
+
+### Using [zpm](https://github.com/zpm-zsh/zpm)
 
 Add `zpm load zfben/zsh-npm` into .zshrc

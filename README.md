@@ -12,10 +12,11 @@ A zsh plugin for using `n` as `npm` aliases with `noglob` prefix and more.
 | `nu` | `noglob npm update`
 | `nr` | `noglob npm run`
 | `ne` | `noglob npm exec`
-| `nd` | `noglob npm dev`
-| `nt` | `noglob npm test`
-| `ns` | `noglob npm start`
-| `nl` | `noglob npm lint`
+| `nb` | `noglob npm run build`
+| `nd` | `noglob npm run dev`
+| `nt` | `noglob npm run test`
+| `ns` | `noglob npm run start`
+| `nl` | `noglob npm run lint`
 
 ## Install
 

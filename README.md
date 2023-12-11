@@ -1,6 +1,6 @@
 # zsh-npm
 
-![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
+![Version](https://img.shields.io/badge/version-1.2.0-brightgreen)
 ![License](https://img.shields.io/github/license/zfben/zsh-npm)
 
 A zsh plugin for using `n` as `npm` aliases with `noglob` prefix and more.
@@ -17,6 +17,7 @@ A zsh plugin for using `n` as `npm` aliases with `noglob` prefix and more.
 | `nt` | `noglob npm run test`
 | `ns` | `noglob npm run start`
 | `nl` | `noglob npm run lint`
+| `no` | `noglob npm outdated`
 
 ## Install
 

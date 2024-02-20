@@ -1,6 +1,6 @@
 # zsh-npm
 
-![Version](https://img.shields.io/badge/version-1.2.0-brightgreen)
+![Version](https://img.shields.io/badge/version-1.3.0-brightgreen)
 ![License](https://img.shields.io/github/license/zfben/zsh-npm)
 
 A zsh plugin for using `n` as `npm` aliases with `noglob` prefix and more.
@@ -18,6 +18,7 @@ A zsh plugin for using `n` as `npm` aliases with `noglob` prefix and more.
 | `ns` | `noglob npm run start`
 | `nl` | `noglob npm run lint`
 | `no` | `noglob npm outdated`
+| `nci` | `noglob npm ci`
 
 ## Install
 
@@ -25,13 +26,9 @@ A zsh plugin for using `n` as `npm` aliases with `noglob` prefix and more.
 
 ```zsh
 git clone --depth=1 https://github.com/zfben/zsh-npm.git ~/.zsh-npm
-echo 'source ~/.zsh-npm/npm.plugin.zsh' >>~/.zshrc
+echo 'source ~/.zsh-npm/zsh-npm.plugin.zsh' >>~/.zshrc
 ```
 
 ### Using [oh-my-zsh](https://github.com/ohmyzsh/oh-my-zsh)
 
-Execute `git clone https://github.com/zfben/zsh-npm ~/.oh-my-zsh/custom/plugins/zsh-npm`. Add `zsh-npm` into plugins array in `.zshrc`
-
-### Using [zpm](https://github.com/zpm-zsh/zpm)
-
-Add `zpm load zfben/zsh-npm` into .zshrc
+Execute `git clone --depth=1 https://github.com/zfben/zsh-npm.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-npm`. Add `zsh-npm` into plugins array in `.zshrc`
